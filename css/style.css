@@ -83,7 +83,9 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #F14E95;
 }
-
+header{
+  padding-top: 40px;
+}
 .fh5co-nav {
   position: absolute;
   top: 0;
@@ -104,6 +106,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   line-height: 40px;
   font-family: helvetica, Arial, serif;
+  padding-bottom: 20px;
 }
 .fh5co-nav a {
   padding: 5px 10px;
