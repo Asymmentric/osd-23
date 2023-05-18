@@ -634,7 +634,7 @@ header{
     right: auto;
   }
 }
-#fh5co-gallery-list {
+#gallery-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -649,7 +649,7 @@ header{
   margin: 0;
   width: 100%;
 }
-#fh5co-gallery-list li {
+#gallery-list li {
   display: block;
   padding: 0;
   margin: 0 0 10px 1%;
@@ -667,18 +667,18 @@ header{
   border-radius: 7px;
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li {
+  #gallery-list li {
     margin-left: 0;
   }
 }
-#fh5co-gallery-list li a {
+#gallery-list li a {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
+#gallery-list li a:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -695,10 +695,10 @@ header{
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
 }
-#fh5co-gallery-list li a:hover:before {
+#gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#gallery-list li a .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -707,37 +707,37 @@ header{
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #gallery-list li a .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#gallery-list li a .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#gallery-list li a .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #gallery-list li a .case-studies-summary h2 {
     font-size: 20px;
   }
 }
-#fh5co-gallery-list li.one-third {
+#gallery-list li.one-third {
   width: 32.3%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li.one-third {
+  #gallery-list li.one-third {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
+  #gallery-list li.one-third {
     width: 100%;
   }
 }
@@ -1000,7 +1000,7 @@ form label {
 #fh5co-event,
 #osd-schedule,
 #about-us,
-#fh5co-gallery,
+#gallery,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
@@ -1013,7 +1013,7 @@ form label {
   #fh5co-event,
   #osd-schedule,
   #about-us,
-  #fh5co-gallery,
+  #gallery,
   .fh5co-section {
     padding: 3em 0;
   }
